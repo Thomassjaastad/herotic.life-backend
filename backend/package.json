@@ -1,0 +1,24 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "First Express and React app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server" : "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomassjaastad/expressreact.git"
+  },
+  "author": "Thomas Sjaastad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomassjaastad/expressreact/issues"
+  },
+  "homepage": "https://github.com/Thomassjaastad/expressreact#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
