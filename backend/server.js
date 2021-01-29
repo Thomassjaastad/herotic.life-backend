@@ -8,6 +8,14 @@ const items = [
     title: 'Herotic Mølla Beanie Black',
     price: '399,-',
     currency: 'kr'
+  },
+  {
+    id: '002',
+    image:
+      'https://www.herotic.life/uploads/1/2/1/8/121808125/s498120939118584775_p36_i13_w4608.jpeg?width=160',
+    title: 'Herotic Mølla Beanie Navy',
+    price: '399,-',
+    currency: 'kr'
   }
 ];
 
