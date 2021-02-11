@@ -1,4 +1,5 @@
-const express = require('express'); ;
+const express = require('express');
+const app = express();
 
 const items = [
   {
@@ -19,9 +20,14 @@ const items = [
   }
 ];
 
-const app = express();
 app.get('/items', (req, res) => {
   res.json(items);
+});
+
+app.get('/items/:id', (req, res) => {
+  const productId = req.params.id;
+  const result = items.filter((item) => item.id === productId);
+  res.json(result[0]);
 });
 
 const port = 3001;
